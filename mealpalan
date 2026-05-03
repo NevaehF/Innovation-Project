@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meal Suggestions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="logo-container">
+    <img src="logo.png" alt="Green Grocery Logo">
+</div>
+
+<div class="banner">Meal Suggestions</div>
+
+<div class="section">
+    <p><strong>Veggie Stir Fry</strong></p>
+    <p>Ingredients you have: carrots, spinach</p>
+    <p>Missing: soy sauce</p>
+</div>
+
+<div class="section">
+    <p><strong>Tomato Pasta</strong></p>
+    <p>Ingredients you have: tomatoes, garlic</p>
+    <p>Missing: pasta</p>
+</div>
+
+<div class="bottom-nav">
+    <a href="index.html">Home</a>
+    <a href="scan.html">Scan</a>
+    <a href="inventory.html">Inventory</a>
+    <a href="settings.html">Settings</a>
+</div>
+
+</body>
+</html>
