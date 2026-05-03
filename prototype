@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Green Grocery – Home Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f9f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo-container {
+            text-align: center;
+            padding: 20px 0 10px 0;
+        }
+
+        .logo-container img {
+            width: 120px; /* adjust size as needed */
+            height: auto;
+        }
+
+        .banner {
+            background: #8ccf8c;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .alerts {
+            background: #fff;
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #ccc;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            padding: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 0 5px #ccc;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: #dff2df;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo Section -->
+    <div class="logo-container">
+        <img src="logo.png" alt="Green Grocery Logo">
+    </div>
+
+    <!-- Top Banner -->
+    <div class="banner">
+        Welcome Back!
+    </div>
+
+    <!-- Alerts Section -->
+    <div class="alerts">
+        <p>• 3 items expiring soon</p>
+        <p>• New meal suggestions available</p>
+    </div>
+
+    <!-- Main Feature Navigation -->
+    <div class="grid">
+        <div class="card">Scan Items</div>
+        <div class="card">Pantry Inventory</div>
+        <div class="card">Meal Suggestions</div>
+        <div class="card">Nutrition & Budget</div>
+    </div>
+
+    <!-- Bottom Navigation Bar -->
+    <div class="bottom-nav">
+        <div>Home</div>
+        <div>Scan</div>
+        <div>Inventory</div>
+        <div>Settings</div>
+    </div>
+
+</body>
+</html>
