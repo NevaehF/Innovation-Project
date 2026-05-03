@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nutrition & Budget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="logo-container">
+    <img src="logo.png" alt="Green Grocery Logo">
+</div>
+
+<div class="banner">Nutrition & Budget</div>
+
+<div class="section">
+    <p><strong>Daily Nutrition Summary</strong></p>
+    <p>Calories: 1,450</p>
+    <p>Protein: 62g</p>
+    <p>Carbs: 180g</p>
+</div>
+
+<div class="section">
+    <p><strong>Monthly Spending</strong></p>
+    <p>$142.50 spent this month</p>
+</div>
+
+<div class="bottom-nav">
+    <a href="index.html">Home</a>
+    <a href="scan.html">Scan</a>
+    <a href="inventory.html">Inventory</a>
+    <a href="settings.html">Settings</a>
+</div>
+
+</body>
+</html>
