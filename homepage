@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Green Grocery – Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="logo-container">
+    <img src="logo.png" alt="Green Grocery Logo">
+</div>
+
+<div class="banner">Welcome Back!</div>
+
+<div class="section">
+    <p>• 3 items expiring soon</p>
+    <p>• New meal suggestions available</p>
+</div>
+
+<div class="grid">
+    <a href="scan.html" class="card">Scan Items</a>
+    <a href="inventory.html" class="card">Pantry Inventory</a>
+    <a href="meals.html" class="card">Meal Suggestions</a>
+    <a href="nutrition.html" class="card">Nutrition & Budget</a>
+</div>
+
+<div class="bottom-nav">
+    <a href="index.html">Home</a>
+    <a href="scan.html">Scan</a>
+    <a href="inventory.html">Inventory</a>
+    <a href="settings.html">Settings</a>
+</div>
+
+</body>
+</html>
