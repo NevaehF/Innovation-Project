@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pantry Inventory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="logo-container">
+    <img src="logo.png" alt="Green Grocery Logo">
+</div>
+
+<div class="banner">Pantry Inventory</div>
+
+<div class="section">
+    <p><strong>Filters:</strong> All | Expiring Soon | Produce | Dairy | Frozen</p>
+</div>
+
+<div class="section">
+    <p>🍎 Apples — 5 days left</p>
+    <p>🥛 Milk — 2 days left</p>
+    <p>🥬 Spinach — 1 day left</p>
+</div>
+
+<div class="bottom-nav">
+    <a href="index.html">Home</a>
+    <a href="scan.html">Scan</a>
+    <a href="inventory.html">Inventory</a>
+    <a href="settings.html">Settings</a>
+</div>
+
+</body>
+</html>
